@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  color: #333;
+}
+a{
+    text-decoration: none;
+    color: #333;
+    transition: 0.3s;
+}
+ul{
+    list-style: none;
+
+}
+img{
+    max-width: 100%;
+    vertical-align: middle;
+}
+.title{
+    text-align: center;
+    margin-bottom: 60px;
+}
+.container{
+    width: 1200;
+    margin: 0 auto;
+}
+.header-area{
+    padding: 30px 0;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo a {
+    text-transform: uppercase;
+    font-size: 28px;
+    font-weight: 700;
+    color: teal;
+}
+.menu ul {
+    display: flex;
+}
+
+.menu ul li a {
+    text-transform: capitalize;
+    margin-left: 20px;
+        color: teal;
+}
+
+.menu ul li a:hover {
+    color: tomato;
+}
+
+.banner-area img {
+    border: 3px solid #ddd;
+    padding: 3px;
+    border-radius: 7px;
+    width: 100%;
+}
+.about-area {
+    padding: 80px 0px;
+}
+.about-title {
+    text-align: center;
+    margin-bottom: 45px;
+}
+.about-title h4 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 5px;
+    text-transform: capitalize;
+    color: teal;
+    cursor: pointer;
+}
+.about-title h4:hover{
+    color: tomato;
+}
+.about {
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.single-about {
+    flex-basis: 32%;
+    border: 1px solid #ddd;
+    padding: 40px 20px;
+    transition: 0.3s;
+}
+.single-about:hover{
+    color:turquoise
+}
+.single-about:hover{
+    border-color: tomato;
+}
+.single-about i {
+    font-size: 20px;
+    border: 1px solid #ddd;
+    width: 50px;
+    line-height: 50px;
+    border-radius: 50px;
+}
+
+.single-about h4 {
+    text-transform: capitalize;
+    margin: 10px 0;
+    font-size: 24px;
+}
+.service-area {
+    background-color: #f2f2f2;
+    padding: 80px 0;
+}
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.single-service {
+    background-color: #fff;
+    padding: 20px;
+    flex-basis: 32%;
+}
+
+.single-service h4 {
+    text-align: center;
+    background-color: teal;
+    color: #fff;
+    padding: 20px;
+    margin-bottom: 10px;
+    font-size: 22px;
+    text-transform: capitalize;
+}
+.single-service p {
+    line-height: 28px;
+    margin: 20px 0;
+    color: #160a08;
+}
+h4 {
+    font-size: 32px;
+    text-transform: capitalize;
+}
+.single-service a {
+    background-color: tomato;
+    color: #fff;
+    text-transform: capitalize;
+    padding: 10px 20px;
+    display: inline-block;
+    transition: 0.3s;
+    border-radius: 5%;
+}
+.single-service a:hover{
+    background-color:teal;
+}
+.gallery-area {
+    padding: 80px 0;
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.single-gallery {
+    flex-basis: 23%;
+    margin-bottom: 35px;
+}
+.single-gallery img {
+    border: 1px solid #ddd;
+    padding: 3px;
+    border-radius: 10px;
+}
+.contact-area {
+    background-color: #f2f2f2;
+    padding: 80px 0;
+  }
+  .contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .contact-form {
+    flex-basis: 60%;
+  }
+  .contact-address {
+    flex-basis: 35%;
+  }
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+  }
+  .contact-form textarea {
+    height: 110px;
+  }
+  .contact-form input[type="submit"] {
+    background-color: tomato;
+    border: 0;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  .contact-form input[type="submit"]:hover {
+    background-color: teal;
+  }
+  
+  .single-contact {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .single-contact i {
+    background-color: tomato;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    margin-right: 12px;
+  }
+  .single-contact h4 {
+    text-transform: capitalize;
+    font-size: 22px;
+  }
+  .single-contact h4 span {
+    display: block;
+    font-size: 16px;
+    text-transform: lowercase;
+    font-weight: 400;
+  }
+  
+  /* Footer Area CSS */
+  
+  .footer-area {
+    background-color: teal;
+    text-align: center;
+    padding: 20px 0;
+  }
+  .footer-area p {
+    color: #fff;
+    text-transform: capitalize;
+  }
+  
